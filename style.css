@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+    line-height: 1.5;
+	color: black;
+  	max-width: 800px;
+    margin: 0 auto 0 auto;
+    background-color: lightgrey;
+}
+.title{
+    width: 53%;
+    margin:10px auto 30px auto;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;  
+}
+h2{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-left:20px;
+}
+h3{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+h4{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+header,
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    background-color: black;
+    color:white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 50px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    margin:10px 20px 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform:uppercase;
+}
+
+a:hover { 
+    color:orange;
+    border-bottom: 2px solid orange;
+    padding-bottom: 2px;
+}
+article{
+    height:30%;
+    margin-bottom: 30px;
+}
+.par_title{
+    width: 25%;
+    
+}
+article img {
+    max-width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+footer a{
+    padding-bottom: 0;
+    text-transform:lowercase;
+    
+}
+footer a:hover{
+    border-bottom: none;
+}
